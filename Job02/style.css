@@ -1,0 +1,42 @@
+body {
+    background: #88c1d0;
+}
+
+@media  (max-width: 1920px) and (min-width: 1680px) {
+
+    body{
+        background-color: #ffca4b;
+    }
+    
+}
+
+@media (max-width: 1680px) and (min-width: 1280px) {
+
+    body{
+        background-color: #275fa0;
+    }
+}
+
+@media (min-width: 1280px){
+
+    body{
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 769px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
